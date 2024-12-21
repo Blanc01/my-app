@@ -37,12 +37,15 @@
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
   }
   
   .image:hover {
     transform: scale(1.05);
   }
-  
+
   .button {
     background-color: #4a90e2;
     color: white;
